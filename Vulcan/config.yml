@@ -1,6 +1,6 @@
 # 
 #    Vulcan Anti-Cheat Configuration File    #
-prefix: §9§lBack§1§lStreet§6§b§lBoys§f §8»
+prefix: §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f §8»
 alerts:
   format: '%prefix% §f%player% §7failed §f%check% %dev%§7(§fType %type%§7)%dev% §7[§4%vl%§7/§4%max-vl%§7]'
   hover-message:
@@ -21,7 +21,7 @@ alerts:
   toggled-on-message: '%prefix% §7Vulcan alerts §aenabled§7!'
   toggled-off-message: '%prefix% §7Vulcan alerts §cdisabled§7!'
   print-to-console: true
-  console-format: §9§lBack§1§lStreet§6§b§lBoys§f %player% failed %check% %dev%(Type
+  console-format: §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f %player% failed %check% %dev%(Type
     %type%)%dev% (%vl%/%max-vl%)
   custom-commands: []
   severity:
@@ -89,7 +89,7 @@ client-brand-alerts:
   blocked-client-brands: []
   unallowed-client-brand-kick-message: §cYou can't join with %client-brand%!
   console: true
-  console-message: §9§lBack§1§lStreet§6§b§lBoys§f %player% joined using %client-brand%!
+  console-message: §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f %player% joined using %client-brand%!
   whitelist-enabled: false
   whitelisted-client-brands: []
 connection:
@@ -99,7 +99,7 @@ connection:
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     staff-alert-message: '%prefix% §c%player% §7was kicked for being out of sync with
       the server! §7(§c%ticks% §7ticks)'
-    console-message: §9§lBack§1§lStreet§6§b§lBoys§f §c%player% §7was kicked for being
+    console-message: §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f §c%player% §7was kicked for being
       out of sync with the server! §7(§c%ticks% §7ticks)
   transaction:
     kick-enabled: true
@@ -107,7 +107,7 @@ connection:
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     staff-alert-message: '%prefix% §c%player% §7was kicked for not replying to Transaction
       Packets! §7(§c%delay%ms§7)'
-    console-message: §9§lBack§1§lStreet§6§b§lBoys§f §c%player% §7was kicked for not
+    console-message: §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f §c%player% §7was kicked for not
       replying to Transaction Packets! §7(§c%delay%ms§7)
   keepalive:
     kick-enabled: true
@@ -115,7 +115,7 @@ connection:
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     staff-alert-message: '%prefix% §c%player% §7was kicked for not replying to KeepAlive
       Packets! §7(§c%delay%ms§7)'
-    console-message: §9§lBack§1§lStreet§6§b§lBoys§f §c%player% §7was kicked for not
+    console-message: §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f §c%player% §7was kicked for not
       replying to KeepAlive Packets! §7(§c%delay%ms§7)
   max-ping:
     kick-enabled: true
@@ -124,29 +124,29 @@ connection:
     kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
     staff-alert-message: '%prefix% §c%player% §7was kicked for having too high ping!
       §7(§c%ping%ms§7)'
-    console-message: §9§lBack§1§lStreet§6§b§lBoys§f §c%player% §7kicked for having too
+    console-message: §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f §c%player% §7kicked for having too
       high ping! §7(§c%ping%ms§7)
 punishments:
   message: '%prefix% §c%player% §7was punished for §f%check% §7(§fType %type%§7) §7[§4x%vl%§7]'
   broadcast:
   - §7§m---»--*-------------------------------------*--«---
-  - §9§lBack§1§lStreet§6§b§lBoys§f §7has detected §c%player% §7to be cheating and has
+  - §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f §7has detected §c%player% §7to be cheating and has
     removed them from the network.
   - §7§m---»--*-------------------------------------*--«---
 judgement-days:
   started-broadcast:
   - §7§m---»--*-------------------------------------*--«---
-  - §9§lBack§1§lStreet§6§b§lBoys§f Judgement Day v1 has commenced...
+  - §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f Judgement Day v1 has commenced...
   - §7§m---»--*-------------------------------------*--«---
   ended-broadcast:
   - §7§m---»--*-------------------------------------*--«---
   - §cThe Judgement Day has ended... %amount% players were punished.
   - §7§m---»--*-------------------------------------*--«---
   commands:
-  - ban %player% §9§lBack§1§lStreet§6§b§lBoys§f Judgement Day v1
+  - ban %player% §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f Judgement Day v1
   broadcast:
   - §7§m---»--*-------------------------------------*--«---
-  - §c%player% §7was banned for §9§lBack§1§lStreet§6§b§lBoys§f Judgement Day v1§7.
+  - §c%player% §7was banned for §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f Judgement Day v1§7.
   - §7§m---»--*-------------------------------------*--«---
   cooldown: 1000
   run-at-interval: false
@@ -160,7 +160,7 @@ join-message:
   - §4§lWARNING §cButterfly clicking is strongly discouraged and may result in a ban!
   - ''
 gui:
-  title: §9§lBack§1§lStreet§6§b§lBoys§f AntiCheat
+  title: §b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f AntiCheat
 ghost-blocks-fix:
   enabled: true
   ghost-water-fix: true
@@ -306,7 +306,7 @@ commands:
   - §7§m---»--*-------------------------------------*--«---
   ban:
     commands:
-    - ban %player% §c§9§lBack§1§lStreet§6§b§lBoys§f Unfair Advantage
+    - ban %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§f Unfair Advantage
     broadcast:
     - §7§m---»--*-------------------------------------*--«---
     - §cVulcan §7has detected §c%player% §7to be cheating and has removed them from
@@ -460,14 +460,14 @@ hooks:
 discord-webhook:
   alerts:
     enabled: true
-    url: https://discord.com/api/webhooks/1078293461205274655/C02lWCF5FkrqGfjJyorSGnsCU5ZZOHHHD4TCOAr-ZhO5DWL80QxyRqqwSmRAX651AS1n
+    url: https://discord.com/api/webhooks/1144321084359987291/9d5vB_ro7ahVLIyJhUF2UkGjqxRKYjx95J848duF0sUu6Vs95UZavOGLxezuYg9aVcIk
     avatar: https://i.imgur.com/JPG1Kwk.png
     thumbnail: http://cravatar.eu/avatar/%name%/64.png
     color-r: 252
     color-g: 140
     color-b: 3
-    username: BackStreetBoys AntiCheat
-    title: BackStreetBoys AntiCheat Alert
+    username: TeckNix AntiCheat
+    title: TeckNix AntiCheat Alert
     description: '**%player%** failed %check% %dev%(Type %type%)%dev% [%vl%/%max-vl%]'
     content: ''
     information-field: true
@@ -509,7 +509,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked for using hacks!
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked for using hacks!
         buffer:
           max: 3
           multiple: 0.75
@@ -533,7 +533,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -558,7 +558,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -583,7 +583,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 8
@@ -608,7 +608,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -633,7 +633,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 12
@@ -658,7 +658,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -683,7 +683,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 7
@@ -708,7 +708,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 7
@@ -733,7 +733,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -758,7 +758,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 10
@@ -782,7 +782,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -807,7 +807,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -832,7 +832,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -857,7 +857,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -882,7 +882,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -907,7 +907,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 20
@@ -932,7 +932,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 20
@@ -957,7 +957,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         hotbar-shuffle:
           enabled: false
@@ -978,7 +978,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 20
@@ -1003,7 +1003,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 12
@@ -1028,7 +1028,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: -1
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         hotbar-shuffle:
           enabled: false
@@ -1050,7 +1050,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         hotbar-shuffle:
           enabled: false
@@ -1071,7 +1071,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         hotbar-shuffle:
           enabled: false
@@ -1092,7 +1092,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -1117,7 +1117,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         hotbar-shuffle:
           enabled: false
@@ -1139,7 +1139,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         max-cps: 25
       b:
@@ -1153,7 +1153,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1170,7 +1170,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1187,7 +1187,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1204,7 +1204,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1221,7 +1221,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1238,7 +1238,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -1255,7 +1255,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1272,7 +1272,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -1289,7 +1289,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1306,7 +1306,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1323,7 +1323,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1340,7 +1340,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1357,7 +1357,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 25
@@ -1374,7 +1374,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -1391,7 +1391,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -1407,7 +1407,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 35
@@ -1424,7 +1424,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 50
@@ -1441,7 +1441,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 30
@@ -1458,7 +1458,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 25
@@ -1477,7 +1477,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1495,7 +1495,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -1514,7 +1514,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1540,7 +1540,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -1565,7 +1565,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -1591,7 +1591,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1616,7 +1616,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -1641,7 +1641,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -1666,7 +1666,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       f:
         enabled: true
@@ -1679,7 +1679,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 10
@@ -1696,7 +1696,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       j:
         enabled: true
@@ -1709,7 +1709,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -1726,7 +1726,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1743,7 +1743,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -1769,7 +1769,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1787,7 +1787,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -1806,7 +1806,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1823,7 +1823,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1840,7 +1840,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -1857,7 +1857,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -1876,7 +1876,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1893,7 +1893,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 7
@@ -1910,7 +1910,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 7
@@ -1927,7 +1927,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 7
@@ -1944,7 +1944,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 7
@@ -1964,7 +1964,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -1983,7 +1983,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2002,7 +2002,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -2021,7 +2021,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2040,7 +2040,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -2059,7 +2059,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -2078,7 +2078,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2098,7 +2098,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -2117,7 +2117,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -2136,7 +2136,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       b:
         enabled: true
@@ -2150,7 +2150,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -2168,7 +2168,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2186,7 +2186,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2204,7 +2204,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -2222,7 +2222,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -2241,7 +2241,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -2259,7 +2259,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -2277,7 +2277,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 8
@@ -2295,7 +2295,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -2313,7 +2313,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -2333,7 +2333,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -2352,7 +2352,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 8
@@ -2370,7 +2370,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -2388,7 +2388,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -2406,7 +2406,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2424,7 +2424,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2442,7 +2442,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2460,7 +2460,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2478,7 +2478,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2498,7 +2498,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -2517,7 +2517,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2537,7 +2537,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2557,7 +2557,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2578,7 +2578,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2598,7 +2598,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2618,7 +2618,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2637,7 +2637,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2656,7 +2656,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 10
@@ -2675,7 +2675,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2694,7 +2694,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 10
@@ -2714,7 +2714,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2734,7 +2734,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2753,7 +2753,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2773,7 +2773,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2793,7 +2793,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2813,7 +2813,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
     sprint:
       a:
@@ -2827,7 +2827,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -2847,7 +2847,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -2864,7 +2864,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2883,7 +2883,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
     fastplace:
       a:
@@ -2897,7 +2897,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         max-blocks: 15
       b:
@@ -2911,7 +2911,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -2930,7 +2930,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -2949,7 +2949,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -2967,7 +2967,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       b:
         enabled: true
@@ -2980,7 +2980,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -2997,7 +2997,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -3014,7 +3014,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -3031,7 +3031,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -3048,7 +3048,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3065,7 +3065,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -3082,7 +3082,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 8
@@ -3099,7 +3099,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       j:
         enabled: true
@@ -3112,7 +3112,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       k:
         enabled: true
@@ -3125,7 +3125,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -3143,7 +3143,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -3160,7 +3160,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3177,7 +3177,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
     timer:
       a:
@@ -3226,7 +3226,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 20
@@ -3243,7 +3243,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -3261,7 +3261,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         cancel: true
     airplace:
@@ -3276,7 +3276,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
     badpackets:
       a:
@@ -3290,7 +3290,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -3307,7 +3307,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       c:
         enabled: true
@@ -3320,7 +3320,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       d:
         enabled: true
@@ -3333,7 +3333,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3350,7 +3350,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       f:
         enabled: true
@@ -3363,7 +3363,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       g:
         enabled: true
@@ -3376,7 +3376,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       h:
         enabled: true
@@ -3389,7 +3389,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       i:
         enabled: true
@@ -3402,7 +3402,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       j:
         enabled: true
@@ -3415,7 +3415,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       k:
         enabled: true
@@ -3428,7 +3428,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3445,7 +3445,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 5
@@ -3462,7 +3462,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 20
@@ -3479,7 +3479,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3496,7 +3496,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3513,7 +3513,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3530,7 +3530,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -3547,7 +3547,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       t:
         enabled: true
@@ -3560,7 +3560,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       u:
         enabled: true
@@ -3573,7 +3573,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       v:
         enabled: true
@@ -3586,7 +3586,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 8
@@ -3604,7 +3604,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 8
@@ -3621,7 +3621,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 6
@@ -3638,7 +3638,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       z:
         enabled: true
@@ -3651,7 +3651,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
       '1':
         enabled: true
@@ -3664,7 +3664,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 12
@@ -3681,7 +3681,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 12
@@ -3698,7 +3698,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -3715,7 +3715,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
     inventory:
       a:
@@ -3729,7 +3729,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -3746,7 +3746,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -3766,7 +3766,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -3785,7 +3785,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3802,7 +3802,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 8
@@ -3821,7 +3821,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -3840,7 +3840,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -3859,7 +3859,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 2
@@ -3878,7 +3878,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3897,7 +3897,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 3
@@ -3916,7 +3916,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 1
@@ -3934,7 +3934,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -3951,7 +3951,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -3968,7 +3968,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         buffer:
           max: 4
@@ -3986,7 +3986,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         max-combat-violations: 25
       b:
@@ -4000,7 +4000,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         max-movement-violations: 30
       c:
@@ -4014,7 +4014,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         max-player-violations: 30
       d:
@@ -4028,7 +4028,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         max-autoclicker-violations: 30
       e:
@@ -4042,7 +4042,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         max-total-violations: 50
       f:
@@ -4056,6 +4056,6 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% §c§9§lBack§1§lStreet§6§b§lBoys§8 >> §fYou have been kicked
+        - kick %player% §c§b§ka§a§ka§c§ka§r §4§lTeck§f§lNix §c§ka§a§ka§b§ka§8 >> §fYou have been kicked
           for using hacks!
         max-scaffold-violations: 25
